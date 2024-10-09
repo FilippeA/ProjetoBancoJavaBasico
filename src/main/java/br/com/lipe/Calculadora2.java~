@@ -1,0 +1,37 @@
+package br.com.lipe;
+
+public class Calculadora2 implements ExemploCalculadoraInterface{
+    private int resultado;
+
+    @Override
+    public void somar(int cu, int b) {
+        resultado = cu + b;
+    }
+
+    @Override
+    public Integer somarEResultado(int a, int b) {
+        return 0;
+    }
+
+    @Override
+    public void subtrair(int a, int b) {
+
+    }
+
+    @Override
+    public void multiplicar(int a, int b) {
+
+    }
+
+    @Override
+    public void dividir(int a, int b) {
+
+    }
+
+    @Override
+    public void lucaoEputa(boolean tipo) {
+
+    }
+
+
+}
